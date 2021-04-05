@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestpkg.LatestStockPriceController">
+   <children>
+      <Button layoutX="21.0" layoutY="361.0" mnemonicParsing="false" onAction="#google" text="Button" />
+      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneToStok" text="Button" />
+      <VBox layoutX="37.0" layoutY="48.0" prefHeight="304.0" prefWidth="578.0" />
+   </children>
+</AnchorPane>

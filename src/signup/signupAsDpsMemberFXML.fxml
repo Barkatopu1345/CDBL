@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="589.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="signup.SignupAsDpsMemberFXMLController">
+    <stylesheets>
+        <URL value="@signupfxml.css" />
+    </stylesheets>
+   <children>
+      <TextField text="FKJLSADHFISDAJ" />
+      <ImageView fitHeight="331.0" fitWidth="600.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/image03.jpg" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <TextField fx:id="companyEmail" layoutX="57.0" layoutY="101.0" prefHeight="18.0" prefWidth="238.0" promptText="Enter your email">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <TextField fx:id="password" layoutX="57.0" layoutY="171.0" prefHeight="18.0" prefWidth="238.0" promptText="Enter your password">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <TextField fx:id="companyName" layoutX="57.0" layoutY="40.0" prefHeight="18.0" prefWidth="238.0" promptText="Company Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <TextField fx:id="licence" layoutX="320.0" layoutY="40.0" prefHeight="18.0" prefWidth="238.0" promptText="Trade licence">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <Button layoutX="495.0" layoutY="278.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickLogintoCongratulations" text="Apply now!" />
+      <TextField fx:id="address" layoutX="320.0" layoutY="101.0" prefHeight="18.0" prefWidth="238.0" promptText="Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <Button layoutX="413.0" layoutY="278.0" mnemonicParsing="false" onAction="#buttonOnClickToCancelApply" prefHeight="25.0" prefWidth="70.0" text="Cancel" />
+   </children>
+</AnchorPane>

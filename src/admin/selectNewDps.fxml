@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.SelectNewDpsController">
+      <children>
+      <TableView fx:id="tableView" prefHeight="338.0" prefWidth="637.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="165.0" text="Company Name" />
+          <TableColumn fx:id="licenColumn" minWidth="0.0" prefWidth="95.0" text="Licence" />
+            <TableColumn fx:id="emailColumn" minWidth="0.0" prefWidth="104.0" text="Email" />
+            <TableColumn fx:id="passColumn" prefWidth="137.0" text="Password" />
+            <TableColumn fx:id="addressColumn" prefWidth="121.0" text="Address" />
+        </columns>
+      </TableView>
+      <Button layoutX="571.0" layoutY="361.0" mnemonicParsing="false" onAction="#buttonOnClickToSubmitNewMemberList" text="Submit" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickToAdminHome" prefHeight="25.0" prefWidth="51.0" text="Back" />
+   </children> 
+</AnchorPane>

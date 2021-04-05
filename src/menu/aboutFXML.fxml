@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.AboutFXMLController">
+    <stylesheets>
+        <URL value="@aboutfxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="236.0" layoutY="14.0" text="Welcome to CDBL">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TabPane layoutX="17.0" layoutY="39.0" prefHeight="306.0" prefWidth="573.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Vision and Mission">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea editable="false" layoutX="123.0" layoutY="25.0" prefHeight="277.0" prefWidth="573.0" text="Our vision&#10;Central Depository Bangladesh Limited (CDBL) shall be a dynamic, forward looking institution committed to adding value to the business of its clients. It will be equipped with up-to-date Information Technology to ensure prompt customer response and provide innovative solutions to the needs of the capital market playing a pivotal role in Bangladesh’s financial services sector.&#10;&#10;Our mission&#10;CDBL will have a sound management team with carefully-chosen, highly-motivated staff fostering a spirit of enthusiasm balanced with prudent policies to achieve a high level of sophistication and expertise in the performance of its personnel by consistently striving to provide high quality services that are reliable, transparent and efficient by:&#10;&#10;Emphasizing the importance of the customer,&#10;Unleashing employee initiative by empowering them,&#10;Viewing activities of the business as processes and the goal of continuous improvement.&#10;Management’s leadership endeavor is to forge a passionate, inspired, motivated and cohesive team to operate from a fully common bottom line, sharing the same agenda, driven by the same vision to achieve the best possible results, not only for the shareholders and the employees but also to boost public confidence in CDBL’s growing strength as an independent, professionally managed institution." wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Overview">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea layoutX="105.0" layoutY="39.0" prefHeight="277.0" prefWidth="573.0" text="Central Depository Bangladesh Limited (CDBL) was incorporated on 20 th August 2000 sponsored by the country's Nationalized Commercial Banks (NCBs), Investment Corporation of Bangladesh (ICB), Private Commercial Banks (PCBs), Foreign Banks, Merchant Banks, Publicly listed Companies, Insurance Companies and Dhaka &amp; Chittagong Stock Exchanges with the collaboration of the Asian Development Bank (ADB). Legal basis for CDBL's operations is set out in the Depositories Act 1999, Depositories Regulations 2000, Depository (User) Regulations 2003, and the CDBL by-laws.&#10;&#10;CDBL's core services cover the efficient delivery, settlement and transfer of securities through computerized book entry system i.e. recording and maintaining securities accounts and registering transfer of securities; changing the ownership without any physical movement or endorsement of certificates and execution of transfer instruments. The Central Depository System (CDS) operated by CDBL has proved to be a convenient and reliable means to settle securities transaction. The investor has been freed from the hassles of physical handling of certificates, errors in paper work and the risks associated with damaged, lost and forged certificates.&#10;&#10;CDBL's operations are carried out in its Main Data Centre which is linked to a remote Disaster Recovery Centre operating as a backup with data update taking place simultaneously. Network connectivity to Depository Participants, Issuers, Banks and Stock Exchanges is through Front End interfaces accessed by WAN link.&#10;&#10;Live operations of the CDS commenced with the inauguration of the Electronic Government Securities Registry (EGSR) by the Governor of Bangladesh Bank on 20 th October 2003. The EGSR also serves as a platform for secondary market sale/purchase as well as Repo transactions of government securities to commercial banks linked online to the CDS. Equity market securities dematerialization process i.e. eliminating physical certificate as record of security ownership by substituting it as an electronic book entry record in the CDS commenced on 24 th January 2004 with the entry of Square Pharmaceuticals Limited into the CDS.&#10;&#10;Since 14th February 2003 CDBL has been acting as National Numbering Agency for International Securities Identification Number (ISIN) as partner in Bangladesh of Association of National Numbering Agencies (ANNA) based in Germany. CDBL is a member of Asia Pacific CSD Group (ACG) and an associate member of South Asian Federation of Exchanges (SAFE).&#10;&#10;CDBL has achieved an ISO/IEC 27001:2013 certificate on Information Security Management System conforming to the specifications of ISO/IEC 27001:2013 and the best practices adopted in ISO/IEC 27002:2013." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneToAboutUs" text="Back" />
+   </children>
+</AnchorPane>

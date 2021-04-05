@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investor.InvestorFXMLController">
+    <stylesheets>
+        <URL value="@investorfxml.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="204.0" layoutY="101.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoBuyProducts" prefHeight="40.0" prefWidth="146.0" text="Buy products" />
+      <Button layoutX="204.0" layoutY="141.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoChangeDps" prefHeight="40.0" prefWidth="146.0" text="Change DPs" />
+      <Button layoutX="204.0" layoutY="181.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoSellProducts" prefHeight="40.0" prefWidth="146.0" text="Sell product" />
+      <Button layoutX="204.0" layoutY="221.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoToComplain" prefHeight="40.0" prefWidth="146.0" text="Complain" />
+      <Button layoutX="204.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonClickOnToSeeMarketStatus" prefHeight="40.0" prefWidth="146.0" text="Market status" />
+      <Button layoutX="506.0" layoutY="8.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoToLogin" prefHeight="25.0" prefWidth="86.0" text="Log out" />
+      <Button layoutX="42.0" layoutY="350.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoDps" text="Dps" />
+      <Button layoutX="20.0" layoutY="289.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickFromInvestoToDirectorHome" text="Director" />
+   </children>
+</AnchorPane>

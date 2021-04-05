@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dpsParticipant.CloseBoAccountFXMLController">
+    <stylesheets>
+        <URL value="@closeboaccountfxml.css" />
+    </stylesheets>
+   <children>
+      <TextField layoutX="200.0" layoutY="61.0" text="Enter BO no....." />
+      <TextArea layoutX="149.0" layoutY="100.0" prefHeight="107.0" prefWidth="256.0" text="Enter reson of closing Bo account....." />
+      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneDpsHome" text="Submit" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneDpsHome" text="Back" />
+   </children>
+</AnchorPane>

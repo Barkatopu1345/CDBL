@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="325.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="signup.SignupFXMLController">
+   <children>
+      <ImageView fitHeight="371.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/image03.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="532.0" layoutY="298.0" mnemonicParsing="false" onAction="#changeSceneToSignupPageFromCongratulations" text="Submit" />
+      <TextField fx:id="nameTextField" layoutX="160.0" layoutY="33.0" prefHeight="33.0" prefWidth="230.0" promptText="Full name..">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </TextField>
+      <TextField fx:id="nidTextField" layoutX="160.0" layoutY="88.0" prefHeight="33.0" prefWidth="230.0" promptText="NID...">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </TextField>
+      <TextField fx:id="emailTextField" layoutX="160.0" layoutY="152.0" prefHeight="33.0" prefWidth="230.0" promptText="email...">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </TextField>
+      <TextField fx:id="passTextField" layoutX="160.0" layoutY="211.0" prefHeight="33.0" prefWidth="230.0" promptText="password....">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </TextField>
+      <Button layoutX="19.0" layoutY="298.0" mnemonicParsing="false" onAction="#changeSceneToSignupPageFromHomePage" text="Back" />
+   </children>
+</AnchorPane>

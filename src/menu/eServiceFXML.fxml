@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestpkg.EServiceFXMLController">
+    <stylesheets>
+        <URL value="@eservicefxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="250.0" layoutY="14.0" text="Our E-services">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="545.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneToEServices" text="Back" />
+      <TabPane layoutX="14.0" layoutY="39.0" prefHeight="309.0" prefWidth="580.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Balance Inquiry Service">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea editable="false" layoutX="65.0" layoutY="34.0" prefHeight="280.0" prefWidth="580.0" text="CDBL offers Web based BO Account Balance Inquiry Service to the Beneficiary Owner (BO) Account holders giving details of Share holdings with Portfolio Valuation and One month transaction details of their BO Accounts.&#10;&#10;BO Account holders may register this service by entering the valid BO information with scanned signature and payment of Taka 200 for annual registration fee by using online payment gateway through CDBL online Registration Platform.&#10;&#10;If you are not yet Registered then Click here&#10;&#10;For any queries, please contact&#10;&#10;Value Added Services&#10;Central Depository Bangladesh Limited&#10;Phone: +88-02-55011924-35&#10;Email: vas@cdbl.com.bd&#10;&#10;Mr. Raquibul Islam Chowdhury&#10;Head, Application Development and Value Added Services&#10;&#10;Mr. Md. Muniruzzaman Rana&#10;Sr. System Engineer, Application Development and Value Added Services&#10;&#10;Mr. Rabbani Rasha&#10;System Engineer, Application Development and Value Added Services" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="SMS ALert Service">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea layoutX="72.0" layoutY="21.0" prefHeight="280.0" prefWidth="580.0" text="SMS ALERT SERVICE&#10;For BO&#10;CDBL offers FREE SMS Alerts to the Beneficiary Owner (BO) Accountholders mobile phones giving details of daily debit-credit transactions that have taken place in their accounts. To get the SMS Alerts Service please give your mobile number to your DP/ Brokerage house for entering it in your BO Accounts&#10;&#10;CDBL also introduced SMS Confirmation for BO account opening &amp; closing and SMS Alert for modification of BO Name, Bank A/C No. &amp; Bank Name as well as Mobile No. These SMS shall be sent to the concerned BO accountholders mobile No. recorded in CDS. We hope that such initiative shall prevent unauthorized change of vital information in BO account and shall help in bringing more transparency in the capital market.&#10;&#10;For DP&#10;CDBL has been providing FREE SMS Alert to the Owners/Top Executives of DP houses to keep them informed the Off-Market transfer of securities from/to their DP houses. Such SMS helps the Owners/Top Executives of DP houses to detect any unauthorized transfer of securities from/to their houses and take necessary corrective measures immediately. SMS Alert for Off-Market Securities Transfer is being sent to the authorized mobile numbers on daily basis if any such transfers take place in the DP house.&#10;&#10;For any queries, please contact&#10;&#10;Value Added Services&#10;Central Depository Bangladesh Limited&#10;Phone: +88-02-55011924-35&#10;Email: vas@cdbl.com.bd&#10;&#10;Mr. Raquibul Islam Chowdhury&#10;Head, Application Development and Value Added Services&#10;&#10;Mr. Md. Muniruzzaman Rana&#10;Sr. System Engineer, Application Development and Value Added Services&#10;&#10;Mr. Rabbani Rasha&#10;System Engineer, Application Development and Value Added Services" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

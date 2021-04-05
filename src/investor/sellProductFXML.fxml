@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="1003.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investor.SellProductFXMLController">
+    <stylesheets>
+        <URL value="@sellproductfxml.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="947.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneToSellProducts" text="Back" />
+      <TableView prefHeight="354.0" prefWidth="1003.0">
+        <columns>
+            <TableColumn fx:id="choiceBoxLabel" onEditStart="#choiceBoxLabelUpdate" prefWidth="233.0" text="Select the company name">
+               <graphic>
+                  <ChoiceBox fx:id="choicebox" prefHeight="23.0" prefWidth="70.0" />
+               </graphic>
+            </TableColumn>
+          <TableColumn prefWidth="104.0" text="First account no." />
+            <TableColumn prefWidth="116.0" text="Last account no." />
+            <TableColumn prefWidth="119.0" text="No. of account" />
+            <TableColumn prefWidth="219.0" text="Min price in BDT(unit price)" />
+          <TableColumn prefWidth="177.0" text="Last price in BDT(unit price)" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

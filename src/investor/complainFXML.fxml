@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="investor.ComplainFXMLController">
+    <stylesheets>
+        <URL value="@complainfxml.css" />
+    </stylesheets>
+   <children>
+      <TextArea layoutX="103.0" layoutY="80.0" prefHeight="200.0" prefWidth="395.0" promptText="Write your complain...">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </TextArea>
+      <Button layoutX="387.0" layoutY="290.0" mnemonicParsing="false" onAction="#changeSceneToComplainPage" prefHeight="35.0" prefWidth="111.0" text="Submit" />
+   </children>
+</AnchorPane>

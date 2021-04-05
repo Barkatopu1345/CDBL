@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdminHomeFXMLController">
+    <stylesheets>
+        <URL value="@adminhomefxml.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="214.0" layoutY="83.0" mnemonicParsing="false" onAction="#buttonClickOnForSignupAsInvestor" prefHeight="33.0" prefWidth="173.0" text="Select new Investor" />
+      <Button layoutX="214.0" layoutY="116.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickToNewDps" prefHeight="33.0" prefWidth="173.0" text="Select new DPs" />
+      <Button layoutX="214.0" layoutY="149.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickToDeleteAccount" prefHeight="33.0" prefWidth="173.0" text="Account Delete" />
+      <Button layoutX="214.0" layoutY="182.0" mnemonicParsing="false" onAction="#buttonCLickOnForViewListOfInvestor" prefHeight="33.0" prefWidth="173.0" text="List of Investors" />
+      <Button layoutX="214.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonCLickOnForViewForgetPasswordList" prefHeight="33.0" prefWidth="173.0" text="Forget password application" />
+      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#changeFXMLButtonOnCLickToLogout" text="Logout" />
+   </children>
+</AnchorPane>

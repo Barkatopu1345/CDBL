@@ -1,0 +1,38 @@
+
+DSE, 2018, First Janata Bank Mutual Fund, 11000000
+DSE, 2018, Prime Finance First Mutual Fund, 8500000
+DSE, 2018, Aamra networks limited, 1500000
+DSE, 2018, AB Bank 1st Mutual fund, 1800000
+DSE, 2018, ACI Limited, 1000700
+
+DSE, 2019, First Janata Bank Mutual Fund, 10000000
+DSE, 2019, Prime Finance First Mutual Fund, 8000000
+DSE, 2019, Aamra networks limited, 1500000
+DSE, 2019, AB Bank 1st Mutual fund, 20000
+DSE, 2019, ACI Limited, 1000900
+
+DSE, 2020, First Janata Bank Mutual Fund, 2000000
+DSE, 2020, Prime Finance First Mutual Fund, 900000
+DSE, 2020, Aamra networks limited, 170000
+DSE, 2020, AB Bank 1st Mutual fund, 3000000
+DSE, 2020, ACI Limited, 10005000
+
+
+CSE, 2018, First Janata Bank Mutual Fund, 11000000
+CSE, 2018, Prime Finance First Mutual Fund, 8500000
+CSE, 2018, Aamra networks limited, 1500000
+CSE, 2018, AB Bank 1st Mutual fund, 1800000
+CSE, 2018, ACI Limited, 1000700
+
+CSE, 2019, First Janata Bank Mutual Fund, 10000000
+CSE, 2019, Prime Finance First Mutual Fund, 8000000
+CSE, 2019, Aamra networks limited, 1500000
+CSE, 2019, AB Bank 1st Mutual fund, 20000
+CSE, 2019, ACI Limited, 1000900
+
+CSE, 2020, First Janata Bank Mutual Fund, 2000000
+CSE, 2020, Prime Finance First Mutual Fund, 900000
+CSE, 2020, Aamra networks limited, 170000
+CSE, 2020, AB Bank 1st Mutual fund, 3000000
+CSE, 2020, ACI Limited, 10005000
+

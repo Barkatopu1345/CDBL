@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dpsParticipant.DpsHomeFXMLController">
+    <stylesheets>
+        <URL value="@dpshomefxml.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="230.0" layoutY="75.0" mnemonicParsing="false" onAction="#changeScene" text="Create new BO account" />
+      <Button layoutX="230.0" layoutY="100.0" mnemonicParsing="false" onAction="#changeSceneClosingBoAccountFxml" prefHeight="25.0" prefWidth="140.0" text="Closing BO account" />
+      <Button layoutX="532.0" layoutY="14.0" mnemonicParsing="false" onAction="#changeSceneTLoginPage" text="Logout" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.ContactUsFXMLController">
+    <stylesheets>
+        <URL value="@contactusfxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="262.0" layoutY="14.0" text="Contact Us">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneToContactUs" text="Back" />
+      <TabPane layoutX="14.0" layoutY="39.0" prefHeight="315.0" prefWidth="576.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Contact us">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea editable="false" layoutX="2.0" prefHeight="286.0" prefWidth="576.0" text="   +88-02-55011924-35 (Head Office)&#10;&#10;   +88-02- 9552356, 9552407, 9552495, 9513878, 9514794-8 (BGIC Tower Office)&#10;&#10;   info@cdbl.com.bd, support@cdbl.com.bd&#10;&#10;   FAX: +88-02-55011933 (Head Office)&#10;&#10;   FAX: +88-02-55011933 (BGIC Tower Office)" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Our Address">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea editable="false" layoutX="121.0" layoutY="21.0" mouseTransparent="true" prefHeight="286.0" prefWidth="576.0" text="CENTRAL DEPOSITORY BANGLADESH LIMITED&#10;BDBL Bhaban (18th Floor)&#10;12 Kawran Bazar, Dhaka - 1215&#10;Bangladesh" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+          <Tab text="Career at CDBL">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea layoutX="73.0" layoutY="43.0" prefHeight="286.0" prefWidth="576.0" text="Career Opportunities and Internships at CDBL&#10;CDBL normally advertises for vacant positions on job related websites (e.g. BDJobs) and local newspapers when there is a human resource need. CDBL is considerably a small 24/7 information technology based business operation that requires limited human resources. Therefore in general, candidates with Information Technology (IT) and Computer Science (CS) background are preferred.&#10;&#10;Industrial Training: As a part of Corporate Social Responsibility (CSR), CDBL offers a two week long training program in groups for interested candidates that allows the participants to have an exposure to not only overall CDBL activities, but also an overall understanding of how the industry or the Capital Market works.&#10;&#10;This program is useful to those students who are seeking an opportunity to learn about how our capital market works and what role CDBL plays. The program is offered free of cost.&#10;&#10;Internships: Following successful completion of the Industrial Training, top scorers are often offered a paid internship for six months which is a part requirement for graduation from many universities in the country. Some promising interns may get permanent job offers from CDBL if and when there is a HR requirement.&#10;&#10;We understand the importance of ‘on the job' real life exposure for students who will be entering the job market immediately after graduation. Even a short training and exposure at CDBL often helps a candidate to land into an entry level job somewhere.&#10;&#10;Our internship program is an on-going program. The program is initiated when enough candidates are found to form a group. Under this program an intern gets an exposure to our internal and external setup and operations with a complete over view of the industry.&#10;&#10;Capital Market is a lucrative industry. During the program they are also given tips on how to continue learning about the industry and where to get all the information if they are interested in developing a career in this industry. Therefore, this program acts as a stepping stone for the candidates to explore the career opportunities in the related fields like the Stock Exchanges, Stock Broker Houses (Depository Participants and Merchant Banks), any Financial Institution as well as any member companies (Issuers) that are listed as a Joint Stock Company with the Securities Exchange Commission (SEC).&#10;&#10;If you are interested to join our programs please send a letter of intent with a photograph of self and complete resume or curriculum vitae (CV) to the following department:&#10;&#10;Human Resources Department (HRD)&#10;Central Depository Bangladesh Limited (CDBL)&#10;BDBL Bhaban (18 th floor) 12 Karwan Bazaar, Dhaka 1215&#10;Or, email your application to info@cdbl.com.bd&#10;&#10;You will be contacted when a program is scheduled. Thank you for your interest in CDBL!" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestpkg.ServiceFXMLController">
+    <stylesheets>
+        <URL value="@servicefxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="257.0" layoutY="14.0" text="Our services">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TabPane layoutX="14.0" layoutY="39.0" prefHeight="310.0" prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Account Opening">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea editable="false" layoutX="76.0" layoutY="49.0" prefHeight="281.0" prefWidth="578.0" text="Investors may open an account with any CDBL participant (for an up to date list of participants, see Listed Participants).&#10;&#10;The participant will request the investor to sign an agreement which will set out the rights and duties of both the investor and the participant.&#10;&#10;The participant will then open an account for the investor at CDBL.&#10;&#10;Normally the account will be in the name of the investor. If the participant is going to mix one investors securities with another in an omnibus account then this must be specifically stated on the agreement.&#10;&#10;Where the account is in the name of the investor then the Law provides that the account holder is a member of the company even though his securities are dematerialised.&#10;&#10;The participant is required (under the regulations) to provide statements on at least a monthly basis if there are movements on the account. Even if there are no movements the participant must provide a quarterly statement." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Dematerialisation ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea layoutX="115.0" layoutY="32.0" prefHeight="281.0" prefWidth="578.0" text="Dematerialisation is a process by which physical certificates are converted into electronic form.&#10;&#10;Once a security is eligible for holding in CDBL then all stock exchange trades must be settled through the depository. This means that sellers must have securities in the depository (i.e. the securities must have been dematerialised) before the broker can execute the sale order.&#10;&#10;To dematerialise securities investors should take their share certificates to a participant. The participant will request the investor to complete a dematerialisation request form. The participant will take the documents to the issuer who (if the certificate is valid) will update the register by moving the securities from the certificated portion of the register to the depository portion. The issuer will then confirm the dematerialisation to the depository and the depository will credit the securities to the investor's account.&#10;&#10;The participant will be able to see the balances in all the accounts that they control through a computer link with CDBL.&#10;&#10;Investors do not need to wait until they wish to sell to dematerialise their holdings. Once a security is eligible, investors may open accounts and lodge securities at any time." wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Rematerialise ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea layoutX="130.0" layoutY="69.0" prefHeight="281.0" prefWidth="578.0" text="To rematerialise securities that are in a CDBL account the account holder must instruct the participant through which he holds his account by completing a rematerialisation request form.&#10;&#10;The participant will instruct CDBL and the securities will then be debited from the account upon confirmation by the issuer.&#10;&#10;The issuer will transfer the holding from the depository portion of its register to the certificated portion of its register.&#10;&#10;The issuer will provide the investor with a share certificate within 30 days of rematerialisation." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+          <Tab text="Direct Account">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea layoutX="89.0" layoutY="20.0" prefHeight="281.0" prefWidth="578.0" text="CDBL is offering a service to investors who wish to hold their securities in dematerialised form but do not wish to use a stockbroker or a bank to do so. Investors will be asked, by CDBL, to complete an account opening form. They will then be able to dematerialise existing holdings by giving the certificates to CDBL or to their stockbrokers and completing the dematerialisation request form. When they wish to sell their securities they should instruct CDBL in writing to transfer the required number of securities to the stockbroker. When they buy they should instruct their stockbroker to transfer the securities to the Direct Account following the settlement day. It is not necessary, in this case, to instruct CDBL. CDBL will not handle funds and investors must make arrangements to settle payments directly with their stockbrokers. CDBL will issue statements directly to the account holder on a monthly basis, if there are any movements and on a quarterly basis, if there are no movements." wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="528.0" layoutY="361.0" mnemonicParsing="false" onAction="#changeSceneToServices" text="Back" />
+   </children>
+</AnchorPane>
